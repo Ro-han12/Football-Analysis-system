@@ -74,7 +74,9 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
+input_videos/
+runs/
+yolo.pt
 # Jupyter Notebook
 .ipynb_checkpoints
 
