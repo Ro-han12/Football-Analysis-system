@@ -77,6 +77,8 @@ target/
 input_videos/
 runs/
 yolov8x.pt
+training/football-players-detection-1
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
