@@ -76,7 +76,7 @@ docs/_build/
 target/
 input_videos/
 runs/
-yolo.pt
+yolov8x.pt
 # Jupyter Notebook
 .ipynb_checkpoints
 
