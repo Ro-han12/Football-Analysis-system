@@ -78,6 +78,8 @@ input_videos/
 runs/
 yolov8x.pt
 training/football-players-detection-1
+models/best.pt
+models/last.pt
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -133,7 +135,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+training/
+models
+yolov8x.pt
 # Spyder project settings
 .spyderproject
 .spyproject
