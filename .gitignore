@@ -74,12 +74,14 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
+output_videos/output_video.avi
 input_videos/
 runs/
 yolov8x.pt
 training/football-players-detection-1
 models/best.pt
 models/last.pt
+output_videos/output_video.avi
 
 # Jupyter Notebook
 .ipynb_checkpoints
