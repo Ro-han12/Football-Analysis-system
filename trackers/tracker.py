@@ -71,7 +71,7 @@ class Tracker:
                     cls_id=frame_detection[3]
                     
                     if cls_id == cls_names_inv['ball']:
-                        tracks['ball'][frame_num][track_id] = {'bbox': bbox}
+                        tracks['balls'][frame_num][track_id] = {'bbox': bbox}
             
             if stub_path is not None:
                 with open(stub_path,'wb') as f:
