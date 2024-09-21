@@ -5,7 +5,7 @@ import numpy as np
 from team_assigner import TeamAssigner
 from player_ball_assigner import PlayerBallAssigner
 from camera_movement_estimator import CameraMovementEstimator
-
+from view_transformer import ViewTransformer
 
 def main():
     video_frames=read_video('input_videos/08fd33_4.mp4') #reading
@@ -30,6 +30,10 @@ def main():
     #     cropped_image=frame[int(bbox[1]):int(bbox[3]),int(bbox[0]):int(bbox[2])]
     #     cv2.imwrite(f'output_videos/cropped_img.jpg',cropped_image)
     #     break
+    
+    # View Trasnformer
+    view_transformer = ViewTransformer()
+    view_transformer.add_transformed_position_to_tracks(tracks)
     
     # ball positions
     tracks['balls']=tracker.interpolate_ball_positions(tracks['balls'])
